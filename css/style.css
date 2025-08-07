@@ -1,1 +1,38 @@
 
+ article {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #95a4a5;
+    width: 370px;
+    
+    }
+
+    article > h2 {
+        background-color: #95a4a5;
+        color: white;
+        text-align: center;
+        margin: -10px;        
+        margin-bottom: 10px
+    }
+
+    article > p {
+        text-align: center;
+        font-size: 32px;
+        margin: 20px 0;
+    }
+
+    article > ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    article > ul > li {
+        text-align: center;
+    }
+article{
+
+    display: block;
+    display: inline-block
+
+}
