@@ -30,9 +30,6 @@
     article > ul > li {
         text-align: center;
     }
-article{
-
-    display: block;
+article {
     display: inline-block
-
 }
