@@ -1,10 +1,11 @@
 
  article {
-    display: inline-block;
+    float: left;
     background-color: white;
     padding: 10px;
     border: 1px solid #95a4a5;
     width: 370px;
+    margin: 0 0 0 7px;
     }
 
     article > h2 {
@@ -30,3 +31,20 @@
     article > ul > li {
         text-align: center;
     }
+
+    .botao {
+        display: inline-block;
+        background-color: #127d00;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 16px;
+    }
+
+    .botao:hover {
+        background-color: red;
+    }
+
+    .botao:focus {
+        background-color: red
+    }
+    
